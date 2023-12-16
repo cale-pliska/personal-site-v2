@@ -1,15 +1,14 @@
 .navbar {
+    height: 100%;
+    background-color: green;
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    background-color: #151515;
+    align-items: center;
   }
   
   .navLink {
+    padding: .5em;
     text-decoration: none;
-    color: #1d75cd;
-    font-size: 20px;
-    margin: 0 10px;
+    color: black;
   }
   
   .navLink:hover {
