@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(212, 25, 25, 0.87);
-  background-color: black;
+  background-color: lightgreen;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,15 +14,18 @@
 }
 
 html, body {
-  display: block;
-  height: 100%;
+  margin: 0;
+  padding: 5px;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-body {
-  width: 90%;
-  height: 100%;
-  margin: 0 auto;
-  background-color: darkgray;
+div {
+  border: 3px solid red;
+  max-width: 100%;
 }
 
 a {
@@ -46,7 +49,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: blue;
   cursor: pointer;
   transition: border-color 0.25s;
 }

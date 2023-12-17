@@ -2,5 +2,5 @@
     max-width: 100%;
     display: flex;
     justify-content: right;
-    border: 5px solid red;
+    margin: .5em auto;
   }
